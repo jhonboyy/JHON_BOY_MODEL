@@ -1,10 +1,10 @@
 import os
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Conv2D, Flatten, Reshape, UpSampling2D, LeakyReLU, Dropout, Input
-from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.preprocessing.image import ImageDataGenerator # type: ignore
+from tensorflow.keras.models import Sequential # type: ignore
+from tensorflow.keras.layers import Dense, Conv2D, Flatten, Reshape, UpSampling2D, LeakyReLU, Dropout, Input # type: ignore
+from tensorflow.keras.optimizers import Adam # type: ignore
 
 # Configurar el directorio de datos
 data_dir = '/users/jorge/sites/2024_JHON_BOY_MODEL/venv/dataset'  # Cambia esta ruta a la ubicación de tus imágenes
